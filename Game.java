@@ -31,9 +31,9 @@ public class Game {
         return true;
     }
 
-    public static void main(String[] args) {Game p1=new Game("弓箭手",15,30,10);
-        Game p2=new Game("狂戰士",20,15,5);
-        Game p3=new Game("魔法師",10,40,30);
+    public static void main(String[] args) {Game p1=new Game("surprise弓箭手",15,30,10);
+        Game p2=new Game("power狂戰士",20,15,5);
+        Game p3=new Game("mahic魔法師",10,40,30);
         while(true)
        {
             p1.attack(p2);
